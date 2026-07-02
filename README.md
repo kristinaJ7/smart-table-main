@@ -122,8 +122,8 @@ Open the link specified in the console in the browser.
 - design of the application's modular architecture;
 - implementation of the data processing pipeline;
 - work with asynchronous code and API;
-- рефакторинг существующего кода для изменения способа получения данных;
-- оптимизация кода за счёт удаления избыточных функций.
-- submit — отправка формы (используется для сортировки и переключения страниц);
+- refactoring of existing code to change the method of data collection;
+- code optimization by removing redundant functions.
+- submit — sending the form (used to sort and switch pages);
 reset — сброс формы (с задержкой для корректного обновления состояния).
 Все события сводятся к вызову единой функции перерисовки таблицы, что минимизирует количество обработчиков.

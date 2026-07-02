@@ -119,11 +119,11 @@ Open the link specified in the console in the browser.
 
 # During the work on the project the following skills were mastered:
 
-- design of the application's modular architecture;
-- implementation of the data processing pipeline;
-- work with asynchronous code and API;
-- refactoring of existing code to change the method of data collection;
-- code optimization by removing redundant functions.
-- submit — sending the form (used to sort and switch pages);
-reset — сброс формы (с задержкой для корректного обновления состояния).
-Все события сводятся к вызову единой функции перерисовки таблицы, что минимизирует количество обработчиков.
+- - design of the application's modular architecture;
+- - implementation of the data processing pipeline;
+- - work with asynchronous code and API;
+- - refactoring of existing code to change the method of data collection;
+- - code optimization by removing redundant functions.
+- - submit — sending the form (used to sort and switch pages);
+reset — reset form (with delay for correct status update).
+All events are reduced to calling a single table re-drawing function, which minimizes the number of processors.
